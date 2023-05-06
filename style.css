@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  
+}
+
+.header-bar{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    position: sticky;
+    background-color: black;
+    color: antiquewhite;
+}
+
+.logo-text{
+    display: grid;
+    justify-content: start;
+    margin: 15px;
+}
+
+.header-list{
+    /* display: grid;
+    justify-content:first baseline; */
+    margin: 16px;
+    display:inline-block;
+    text-align: end;
+}
+.header-list a{
+    margin: 20px;
+    /* padding: 0; */
+}
+
+.input-adding{
+    text-align: center;
+    margin:20px;
+}
+
+.note-input{
+    text-decoration: none;
+    width: 30vw;
+    border: solid black 2px;
+    border-radius: 4px;
+    height: 5vw;
+}
+
+.add-button{
+    background-color: black;
+    color: whitesmoke;
+    width: 10vw;
+    height: 5vw;
+    border: solid black 2px;
+    border-radius: 4px;
+}
+
+.date-input{
+    text-align: center;
+    margin: 8px;
+    
+}
+
+.date-info{
+    text-decoration: underline;
+}
+
+.date-of-list{
+    margin: 20px;
+    font-size: 25px;
+    font-style: bold;
+}
+

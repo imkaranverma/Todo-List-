@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+    <div class="header-bar">
+        <div class="logo-text">
+                ToDo LIST
+        </div>
+        <div class="header-list">
+          <a>About</a>
+          <a>Connect</a>
+
+        </div>
+    </div>
+    </header>
+
+    <main>
+
+        <div class="input-adding">
+            <form>
+                <input class="note-input" type="text" id="note-input" placeholder="Add Note">
+                <button class="add-button" id="add-button" onclick="addlist()">Add</button>
+                <div class="date-input">
+                    UNTIL:
+                <input class="adding-data" type="date"> </div>
+            </form>
+
+            
+
+            <div class="added-note" id="addednote">
+                    <div class="date-of-list">All ToDo List</div>
+                    <div class="todo-lists">
+                        <form>
+                            <div class="date-info" id="date-info">DD/MM/YYYY</div>
+                            <input class="list1" type="checkbox" id="todolist1" name="todolist1">
+                            <label for="todolist1">Sample text</label>
+                        
+                        </form>
+                    </div>
+            </div>
+        </div>
+    </main>
+   
+
+
+    <script src='script.js'></script>
+</body>
+</html>
